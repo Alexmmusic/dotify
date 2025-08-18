@@ -1,0 +1,14 @@
+Package: Dotify
+Architecture: amd64
+Version: 1.0-1
+Priority: optional
+Section: base
+Maintainer: Alejandro Martinez <alemartinezman@gmail.com>
+Filename: pool/main/dotify_1.0-1.deb
+Size: 957428
+MD5sum: a4445bf92a39b427bf605845f781a492
+SHA1: c33b9e136c16305d336e7393b2116bb617790e9d
+SHA256: 4b2371a930b8a44f8e8cd9fbaf8e288c1fba5b510b93c7b502a55e78ea549548
+SHA512: a00cb9c7f4e0a8e7164fb4077de1ed977e56b2f2221b3162c584c0917bbefe362cf2f9ad5ae5a5274ebcc26e1abbf8bdcf7e9ea9321f6155fa57aadc2006e9ce
+Description: Aplication that converts images in almost any filetype into a dot-printed image
+
