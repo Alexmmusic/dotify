@@ -89,7 +89,12 @@ unsigned int altoVentana = rows * 20;
     engine.StartSystem(SDL_INIT_EVERYTHING, true);
     SDL_Window* ventana = engine.CreateWindowEng("main", 0,0, anchoVentana, altoVentana, SDL_WINDOW_SHOWN);
     SDL_Renderer* renderer = engine.CreateRenderer(ventana, -1, 0);
-     TTF_Font* fuente = engine.LoadFont("/usr/share/fonts/dotify/firaMono.ttf", 11);
+     TTF_Font* fuente = nullptr;
+     #ifdef _WIN32
+     engine.LoadFont("fonts/firaMono.ttf", 11)
+     #else
+     engine.LoadFont("/usr/share/fonts/dotify/firaMono.ttf", 11);
+     #endif
 
      if(fuente==nullptr) return 1;
  
