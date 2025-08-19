@@ -15,7 +15,7 @@ Download the provided `.deb` package and install it using:
 
 ```bash
 sudo dpkg -i dotify_1.0-1.deb
-
+```
 
 ### 🔧 Manual compilation
 
@@ -25,7 +25,7 @@ cd dotify
 mkdir build && cd build
 cmake ..
 make
-
+```
 Once compiled, you can run Dotify from the build directory.
 
 ## 📦 Project Status
