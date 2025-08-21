@@ -17,6 +17,11 @@ Download the provided `.deb` package and install it using:
 sudo dpkg -i dotify_1.0-1.deb
 ```
 
+Then, from a terminal just run
+```bash
+Dotify
+```
+
 ### 🔧 Manual compilation
 
 ```bash
@@ -27,6 +32,8 @@ cmake ..
 make
 ```
 Once compiled, you can run Dotify from the build directory.
+
+Notice that, in Linux, the paths to the images can be absolute or relative
 
 ## 📦 Project Status
 
